@@ -11,18 +11,20 @@
   line-height: 30vh;
   width: 3vw;
   height: 30vh;
-  margin-top: 5vh;
+  margin-top: 1vh;
   padding: 0vw 1vw 0vw 1vw;
   font-size: 1vw;
   transition: box-shadow 0.3s;
 }
 
 .main-bar__inner-bar span {
+  background-color: transparent;
   position: relative;
   bottom: -17vh;
 }
 .main-bar__inner-bar:hover {
   box-shadow: 0 0 25px rgba(0, 0, 0);
+  font-weight: 700;
 }
 
 @media screen and (max-width: 750px) {
