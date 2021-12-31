@@ -1,0 +1,39 @@
+.main__bar {
+  display: inline-block;
+  margin: 1vw 3vw 0vw 3vw;
+}
+
+.main-bar__inner-bar {
+  display: inline-block;
+  color: black;
+  text-align: justify;
+  align-items: center;
+  line-height: 30vh;
+  width: 3vw;
+  height: 30vh;
+  margin-top: 5vh;
+  padding: 0vw 1vw 0vw 1vw;
+  font-size: 1vw;
+  transition: box-shadow 0.3s;
+}
+
+.main-bar__inner-bar span {
+  position: relative;
+  bottom: -17vh;
+}
+.main-bar__inner-bar:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0);
+}
+
+@media screen and (max-width: 750px) {
+  .main__bar {
+    text-align: center;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+  .main-bar__inner-bar {
+    width: 10vw;
+    font-size: 2.5vw;
+    margin-top: 5vh;
+  }
+}
