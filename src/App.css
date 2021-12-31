@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+
+* {
+  background-color: rgb(235, 228, 228);
+}
 
 .main-page {
   padding: 2vw;
@@ -8,11 +13,12 @@
 }
 
 .page-title {
-  font-family: "Sacramento", cursive;
-  padding: 2vw;
-
-  font-size: 5.5vw;
-  text-align: left;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: "Lobster Two", cursive;
+  padding: 1vw;
+  font-size: 9vw;
+  text-align: center;
 }
 
 .portfolio-link a {
@@ -22,8 +28,19 @@
   padding: 1vw;
 }
 
+.shade-division {
+  margin: 3vw 0vw 3vw 0vw;
+  padding: 0vw 0vw 6vw 0vw;
+  border-radius: 2vw 2vw 2vw 2vw;
+}
+
+.shade-division:hover {
+  box-shadow: 10px 10px 20px #7b7b7b, -7px -7px 64px #ffffff;
+}
+
 .palatte-heading {
   font-family: "Sacramento", cursive;
-  font-size: 3vw;
-  padding: 4vw 1vw 0vw 1vw;
+  font-size: 4vw;
+  padding: 0vw 1vw 0vw 3vw;
+  color: black;
 }
