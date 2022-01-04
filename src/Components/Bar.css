@@ -23,7 +23,7 @@
   background-color: transparent;
   position: relative;
   bottom: -17vh;
-  font-family: Verdana;
+  font-family: "Cardo", serif;
 }
 .main-bar__inner-bar:hover {
   box-shadow: 0 0 25px rgba(0, 0, 0);
