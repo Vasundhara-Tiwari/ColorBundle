@@ -398,6 +398,43 @@ const App = () => {
           color5="#Fffacd"
         />
       </div>
+      <div className="shade-division">
+        <br />
+        <br />
+        <br />
+        <div className="palatte-heading">Gray Shades</div>
+        <hr
+          style={{
+            width: "92.5%",
+            height: "0.1vw",
+            border: "none",
+            textAlign: "left",
+            marginLeft: "3vw",
+            background: "black",
+          }}
+        />
+        <Bar
+          color1="#B38b6d"
+          color2="#C0c0c0"
+          color3="#36454f"
+          color4="#778899"
+          color5="#6699cc"
+        />
+        <Bar
+          color1="#F5f5f5"
+          color2="#2c3539"
+          color3="#B2beb5"
+          color4="#A7a6ba"
+          color5="#848482"
+        />
+        <Bar
+          color1="#8c92ac"
+          color2="#F7cac9"
+          color3="#40404f"
+          color4="#Dbd7d2"
+          color5="#8f8b66"
+        />
+      </div>
     </div>
   );
 };
