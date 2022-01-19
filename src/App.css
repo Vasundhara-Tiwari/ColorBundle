@@ -44,3 +44,14 @@
   padding: 0vw 1vw 0vw 3vw;
   color: black;
 }
+
+@media screen and (max-width: 750px) {
+  .shade-division {
+    padding: 0vw 0vw 10vw 0vw;
+    margin: 0vw 0vw 6vw 0vw;
+  }
+
+  .palatte-heading {
+    font-size: 5.5vw;
+  }
+}
