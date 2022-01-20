@@ -2,36 +2,26 @@ import React from "react";
 import "./Bar.css";
 
 const Bar = (props) => {
-  const copy1 = () => {
-    navigator.clipboard.writeText(props.color1);
-
-    console.log("c");
+  async function copy1() {
+    await navigator.clipboard.writeText(props.color1);
     alert("Hex Code Copied!");
-  };
-  const copy2 = () => {
-    navigator.clipboard.writeText(props.color2);
-    console.log("c");
-
+  }
+  async function copy2() {
+    await navigator.clipboard.writeText(props.color2);
     alert("Hex Code Copied!");
-  };
-  const copy3 = () => {
-    navigator.clipboard.writeText(props.color3);
-    console.log("c");
-
+  }
+  async function copy3() {
+    await navigator.clipboard.writeText(props.color3);
     alert("Hex Code Copied!");
-  };
-  const copy4 = () => {
-    navigator.clipboard.writeText(props.color4);
-    console.log("c");
-
+  }
+  async function copy4() {
+    await navigator.clipboard.writeText(props.color4);
     alert("Hex Code Copied!");
-  };
-  const copy5 = () => {
-    navigator.clipboard.writeText(props.color5);
-    console.log("c");
-
+  }
+  async function copy5() {
+    await navigator.clipboard.writeText(props.color5);
     alert("Hex Code Copied!");
-  };
+  }
   return (
     <div className="main__bar">
       <div
