@@ -2,10 +2,12 @@ import React from "react";
 import Bar from "./Components/Bar";
 import "./App.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import Header from "./Components/Header";
 
 const App = () => {
   return (
     <div className="main-page">
+      <Header />
       <div className="main-page__header">
         <div className="page-title">
           <span style={{ color: "#03bfff" }}>C</span>
