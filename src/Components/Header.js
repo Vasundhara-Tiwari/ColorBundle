@@ -6,8 +6,7 @@ const Header = () => {
   return (
     <div className="upper-header">
       <a href="http://vasundhara-tiwari.herokuapp.com">
-        Click to know more about me :- &nbsp;&nbsp;&nbsp;
-        <img src={img} height="35vw" width="35vw" />
+        Click to know more about me
       </a>
     </div>
   );
