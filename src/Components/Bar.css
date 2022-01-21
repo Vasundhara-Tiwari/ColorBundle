@@ -45,3 +45,15 @@
     font-size: 2.5vw;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .main-bar__inner-bar {
+    width: 12vw;
+    height: 25vh;
+    margin-top: 5vh;
+  }
+  .main-bar__inner-bar span {
+    font-size: 3vw;
+    bottom: -12vh;
+  }
+}
