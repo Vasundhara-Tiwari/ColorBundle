@@ -46,6 +46,11 @@
 }
 
 @media screen and (max-width: 750px) {
+  .page-title {
+    font-size: 12vw;
+    padding: 4vw;
+  }
+
   .shade-division {
     padding: 0vw 0vw 10vw 0vw;
     margin: 0vw 0vw 6vw 0vw;
@@ -53,5 +58,16 @@
 
   .palatte-heading {
     font-size: 5.5vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .palatte-heading {
+    font-size: 6.5vw;
+  }
+
+  .page-title {
+    font-size: 15vw;
+    padding: 4vw;
   }
 }
