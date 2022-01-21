@@ -5,3 +5,15 @@
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media screen and (max-width: 750px) {
+  .upper-header a {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .upper-header a {
+    font-size: 3.5vw;
+  }
+}
